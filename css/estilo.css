@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Fjalla+One|Josefin+Sans|Oswald|Shadows+Into+Light');
+
+*{
+	margin-top: 0;
+	top: 0;
+	padding: 0;
+
+}
+
+/*-------------------------estilo del slider-------------------------*/
+.slider{
+	width: 99%;
+	position: absolute;
+	margin: auto;
+	overflow: hidden;
+	z-index: -1;
+
+
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite;
+	animation-direction: alternate;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+
+}
+.slider img{
+	width: 100%;
+}
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+.name{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+	font-family: 'Cinzel', serif;
+	text-shadow: 1px 2px #999;
+  font-size: 90px;
+	color: #7A4329;
+}
+
+.vacio{
+	position: relative;
+	width: 100%;
+  height: 750px;
+}
+.home-welcome{
+display: block;
+margin: auto;
+padding: 5px;
+border-color: 1px solid #1C2C3A;
+position: relative;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+
+}
+.text-casa{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 18px;
+	text-shadow: 1px 2px #999;
+	text-align: center;
+	margin: 30px;
+	padding: 3px;
+}
+.titulo-casa{
+   top: 0;
+	left: 0;
+color:#333;
+font-size: 65px;
+text-align: center;
+ }
+.contender-padre{
+ width: 100%;
+ 	margin-top: -60px;
+ }
+ .columnas {
+	 display: flex;
+	 flex-wrap: wrap;
+	 align-items: baseline;
+	 justify-content: space-between;
+	 margin: auto;
+	 width: 90%;
+
+
+ }
+ .columnas img:hover{
+	 color: #1C2C3A;
+	 margin: 20px;
+	padding: 2px;
+	border: 2px solid white;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+ }
+
+ /*------------------estilo del aside------------------*/
+ .contenido-viajes{
+ 	background-color: #39839C;
+	padding: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+ }
+ .viaje-titulo2{
+ 	font-size: 20px;
+ 	color: #7A4329;
+ }
+ .viaje-titulo3{
+ 	font-size: 20px;
+ 	color: #7A4329;
+ }
+ .color-viaje{
+ 	color:#143039;
+ 	text-align: center;
+ }
+.precio-habitacion {
+ 	text-align: left;
+ }
+ .map{
+	 display: block;
+	 margin: auto;
+	 padding: 15px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+
+ }
+/* --------------estilo hostal titulo--------------*/
+.home-text{
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 15px;
+	color: #113B51;
+}
+.contenedor{
+	width: 100%;
+}
+.home-foto{
+	width: 100%;
+
+
+}
+/*-------------------estilo de texto-------------------*/
+b{
+	color: #1C2C3A;
+	text-align:  center;
+	font-size: 20px;
+}
+
+
+
+/* ------------------------estilo del footer------------------------*/
+footer{
+	width: 100%;
+	height: 700px;
+
+	display: inline-flex;
+	text-align: center;
+	justify-content:center;
+	align-items: center;
+	border-radius: 2px;
+
+}
+.copy{
+	text-align: left;
+	 color: black;
+font-size: 18px;
+
+}
+.contactos{
+	margin: 10px;
+
+}
+/*----------------------estilo de lass redes sociales ----------------------*/
+.social{
+	display: inline-flex;
+	justify-content:flex-start;;
+	align-items: center;
+	text-decoration: none;
+	list-style: none;
+}
+.social li a{
+	font-size: 25px;
+	color: black;
+
+	margin: 6px;
+
+	text-decoration: none;
+	list-style: none;
+}
+.social li a:hover{
+	color: #1C2C3A;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+/* ------------------------------estilo responsive------------------------------*/
+@media (min-width:480px){
+
+	.dormitorio img {
+display: block;
+margin: auto;
+padding: 3px;
+
+	}
+	.reservation-home a{
+		font-size: 20px;
+		color: #0399BC;
+	}
+}
+@media (min-width:768px){
+	.vacio{
+		width: 100%;
+		margin: auto;
+	}
+	.contendero-padre{
+		width: 80% ;
+		margin-top: -90px ;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+}
+@media (min-width:1024px){
+
+	.contendero-padre{
+		width: 60%;
+		margin: auto;
+		display: flex;
+
+	}
