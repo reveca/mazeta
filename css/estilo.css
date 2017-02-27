@@ -92,13 +92,95 @@ text-align: center;
 
  }
  .columnas img:hover{
-	 color: #1C2C3A;
-	 margin: 20px;
+	color: #1C2C3A;
+	margin: 20px;
 	padding: 2px;
 	border: 2px solid white;
-	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+ }
+ /*------------------estilo del las habitaciones------------------*/
+ .room_contenido{
+	 width: 100%;
+	 background-color:#E4DFD8;
+	 height: 30000px;
+
+ }
+ .Afiche{
+  width: 60%;
+  float: right;
+	background-color: #E4DFD8;
+	height: 30000px;
+
+ }
+ .room{
+	 position: fixed;
+	 display: flex;
+	 justify-content: flex-start;
+	 align-items: center;
  }
 
+ .titulo-room {
+   text-align: center;
+   position: fixed;
+	 font-size: 55px;
+	 color: #612D14;
+	 margin: auto;
+	 padding: 10px;
+
+
+ }
+ .text-room{
+	 top: 70px;
+	 font-family: 'Cinzel', serif;
+		font-size: 20px;
+		color: #7A4329;
+		padding: 20px;
+		position: relative;
+ }
+ .room-piñas{
+	 top: 30px;
+	 font-family: 'Cinzel', serif;
+		font-size: 25px;
+		color: #0E4651;
+		padding: 20px;
+		text-align: center;
+		position: relative;
+
+
+ }
+ .piñas{
+	 display: block;
+	 margin: auto;
+	 padding: 8px;
+	 border-radius: 20px;
+	 box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.9), 0 3px 10px 0 rgba(0, 0, 0, 0.25);
+ }
+ .text-piña{
+	 font-family: 'Cinzel', serif;
+		font-size: 25px;
+		color: #0E4651;
+		padding: 20px;
+		text-align: center;
+
+ }
+/*------------------estilo del menu principal------------------*/
+
+.Menuprincipal{
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin:  auto;
+}
+.Menuprincipal img{
+	padding: 5px;
+	cursor: pointer;
+
+}
+.Menuprincipal img:hover{
+	opacity: 0.6;
+}
  /*------------------estilo del aside------------------*/
  .viaje-text{
 	 color: #01273A;
