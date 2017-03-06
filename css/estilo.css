@@ -17,6 +17,7 @@ body{
 }
 .menu nav{
 	width: 99%;
+	 top: -100px;
 	max-width: 11000px;
 	margin:  100px auto;
 	position: fixed;
@@ -34,9 +35,8 @@ body{
 	font-family: 'Cinzel', serif;
 	cursor: pointer;
 }
-.menu nav ul li:hover{
-	color: #CFAE0B;
-	font-size: 25px;
+.menu nav ul li:{
+	transform: scale3d();
 
 }
 
@@ -45,6 +45,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	top: 80px;
 
 font-family: 'Cinzel', serif;
 	text-shadow: 1px 2px #999;
@@ -102,14 +103,13 @@ text-align: center;
  .room_contenido{
 	 width: 100%;
 	 background-color:#E4DFD8;
-	 height: 30000px;
+	 height: 17000px;
 
  }
  .Afiche{
   width: 60%;
   float: right;
 	background-color: #E4DFD8;
-	height: 30000px;
 
  }
  .room{
@@ -117,6 +117,7 @@ text-align: center;
 	 display: flex;
 	 justify-content: flex-start;
 	 align-items: center;
+	 border-radius: 40px;
  }
 
  .titulo-room {
@@ -145,15 +146,12 @@ text-align: center;
 		padding: 20px;
 		text-align: center;
 		position: relative;
-
-
  }
  .piñas{
 	 display: block;
 	 margin: auto;
-	 padding: 8px;
+	 padding: 10px;
 	 border-radius: 20px;
-	 box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.9), 0 3px 10px 0 rgba(0, 0, 0, 0.25);
  }
  .text-piña{
 	 font-family: 'Cinzel', serif;
@@ -163,23 +161,199 @@ text-align: center;
 		text-align: center;
 
  }
+ .room-Cartucho{
+	 top: 30px;
+	 font-family: 'Cinzel', serif;
+		font-size: 25px;
+		color: #0E4651;
+		padding: 20px;
+		text-align: center;
+		position: relative;
+
+
+ }
+ .Cartucho{
+	 display: block;
+	 margin: auto;
+	 padding: 10px;
+	 border-radius: 20px;
+
+ }
+ .room-Girasoles{
+	 top: 30px;
+	 font-family: 'Cinzel', serif;
+		font-size: 25px;
+		color: #0E4651;
+		padding: 20px;
+		text-align: center;
+		position: relative;
+
+ }
+ .Girasoles{
+	 display: block;
+	 margin: auto;
+	 padding: 10px;
+	 border-radius: 20px;
+
+ }
+ .room-Fucsias{
+	 top: 30px;
+	 font-family: 'Cinzel', serif;
+		font-size: 25px;
+		color: #0E4651;
+		padding: 20px;
+		text-align: center;
+		position: relative;
+
+ }
+ .Fucsias{
+	 display: block;
+	 margin: auto;
+	 padding: 10px;
+	 border-radius: 20px;
+
+ }
+ .room-Dormitorios{
+	 top: 30px;
+	 font-family: 'Cinzel', serif;
+		font-size: 25px;
+		color: #0E4651;
+		padding: 20px;
+		text-align: center;
+		position: relative;
+
+ }
+ .dorm-room{
+	 display: block;
+	 margin: auto;
+	 padding: 10px;
+	 border-radius: 20px;
+
+ }
+ .cost-room{
+	 top: 30px;
+	font-family: 'Cinzel', serif;
+	 font-size: 20px;
+	 color: #0E4651;
+	 padding: 20px;
+	 position: relative;
+
+ }
+ .cost-titulo{
+	 top: 30px;
+ font-family: 'Cinzel', serif;
+	font-size: 25px;
+	color: #0E4651;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+
+
+ }
+ /*------------------estilo del formulario------------------*/
+form{
+	background-color: #D4836A;
+	margin: 30px;
+	padding: 20px;
+	width: 30%;
+	border-radius: 10px;
+
+}
+.tutulo-formulario{
+	top: 1px;
+font-family: 'Cinzel', serif;
+ font-size: 20px;
+ color: #0E4651;
+ padding: 5px;
+ text-align: center;
+ position: relative;
+
+
+}
+label{
+font-family: 'Cinzel', serif;
+ font-size: 20px;
+ color: #551400;
+ padding: 10px;
+ text-align: center;
+ position: relative;
+
+}
+ .input{
+	 margin: auto;
+	 padding: 20px;
+	 border-radius: 10px;
+ }
+ .input:hover{
+	 opacity: 0.6;
+
+
+ }
+ #submit_button{
+	 display: block;
+	 margin: auto;
+	 cursor: pointer;
+	 font-family: 'Cinzel', serif;
+	  font-size: 20px;
+	   color:#802F15;
+
+
+ }
+ #submit_button:hover{
+	 color: #FFBEAA;
+ }
+ /*------------------estilo de contactos------------------*/
+
+ .contact{
+	 width: 100%;
+  background-color:white;
+	display: flex;
+	flex-wrap: wrap;
+ }
+ .map{
+	 margin: 30px;
+	 border: 1px #584B32;
+	 padding: 20px;
+
+ }
+ .titulo-contac{
+	 font-family: 'Cinzel', serif;
+		font-size: 40px;
+		color: #0E4651;
+		padding: 20px;
+		position: relative;
+
+ }
+ .calendario{
+	 padding: 30px;
+	 margin: 20px;
+
+
+
+ }
+
+
+
 /*------------------estilo del menu principal------------------*/
 
 .Menuprincipal{
-	width: 40%;
+	width: 70%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	margin:  auto;
+
+
 }
 .Menuprincipal img{
-	padding: 5px;
+	padding: 9px;
 	cursor: pointer;
 
 }
 .Menuprincipal img:hover{
-	opacity: 0.6;
+	border-radius:  50%;
+
 }
  /*------------------estilo del aside------------------*/
  .viaje-text{
@@ -199,7 +373,7 @@ text-align: center;
  }
  .viaje-titulo{
 	 font-family: 'Cinzel', serif;
-	font-size: 25px;
+	font-size: 30px;
 	 color: #7A4329;
 	 	padding: 20px;
  }
@@ -270,6 +444,7 @@ background-color: #E4DFD8;
 	padding: 20px;
 	width: 45%;
 	background-color: #C79B7F;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 .checkV{
 	color: #064158;
